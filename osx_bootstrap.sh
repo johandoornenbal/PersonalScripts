@@ -49,3 +49,18 @@ brew install ${PACKAGES[@]}
 
 echo "Cleaning up..."
 brew cleanup
+
+echo "Installing cask..."
+brew install caskroom/cask/brew-cask
+
+CASKS=(
+    firefox
+    flux
+    google-chrome
+    iterm2
+    slack
+)
+
+echo "Installing cask apps..."
+brew cask install ${CASKS[@]}
+
