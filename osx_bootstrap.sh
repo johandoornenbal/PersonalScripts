@@ -18,6 +18,7 @@
 #
 # Reading:
 #
+# - https://github.com/Homebrew/homebrew-cask/blob/master/USAGE.md
 # - http://lapwinglabs.com/blog/hacker-guide-to-setting-up-your-mac
 # - https://gist.github.com/MatthewMueller/e22d9840f9ea2fee4716
 # - https://news.ycombinator.com/item?id=8402079
@@ -40,6 +41,7 @@ brew install findutils
 PACKAGES=(
     git
     jq
+    maven
     npm
     postgresql
 )
@@ -50,16 +52,27 @@ brew install ${PACKAGES[@]}
 echo "Cleaning up..."
 brew cleanup
 
-echo "Installing cask..."
-brew install caskroom/cask/brew-cask
+echo "Tapping cask..."
+brew tap homebrew/cask
 
 CASKS=(
+    3cxphone
+    calibre
     firefox
     flux
+    google-backup-and-sync
     google-chrome
+    icons8
     iterm2
+    intellij-idea-ce
+    jetbrains-toolbox
+    lastpass
+    phpstorm
+    reaper
     slack
+    soapui
     sourcetree
+    tunnelblick
 )
 
 echo "Installing cask apps..."
