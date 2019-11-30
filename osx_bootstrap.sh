@@ -59,6 +59,7 @@ CASKS=(
     google-chrome
     iterm2
     slack
+    sourcetree
 )
 
 echo "Installing cask apps..."
