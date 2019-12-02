@@ -39,6 +39,7 @@ brew update
 brew install findutils
 
 PACKAGES=(
+    bash
     git
     jq
     maven
