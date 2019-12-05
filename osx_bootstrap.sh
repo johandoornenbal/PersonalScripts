@@ -74,6 +74,9 @@ CASKS=(
     soapui
     sourcetree
     tunnelblick
+    vlc
+    vnc-viewer
+    zerotier-one
 )
 
 echo "Installing cask apps..."
