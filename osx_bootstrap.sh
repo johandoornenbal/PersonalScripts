@@ -41,8 +41,10 @@ brew install findutils
 PACKAGES=(
     bash
     git
+    gradle
     jq
     maven
+    nodejs
     npm
     postgresql
 )
@@ -64,6 +66,7 @@ CASKS=(
     google-backup-and-sync
     google-chrome
     icons8
+    insomnia
     iterm2
     intellij-idea-ce
     jetbrains-toolbox
@@ -73,6 +76,7 @@ CASKS=(
     slack
     soapui
     sourcetree
+    spotify
     tunnelblick
     vlc
     vnc-viewer
