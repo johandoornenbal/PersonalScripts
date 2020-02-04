@@ -70,6 +70,7 @@ CASKS=(
     iterm2
     intellij-idea-ce
     jetbrains-toolbox
+    jprofiler
     lastpass
     phpstorm
     reaper
@@ -78,6 +79,7 @@ CASKS=(
     sourcetree
     spotify
     tunnelblick
+    TuxGuitar
     vlc
     vnc-viewer
     zerotier-one
